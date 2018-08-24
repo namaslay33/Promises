@@ -46,31 +46,6 @@ function cat2files (input1, input2){
     });
     
     return promise;
-
-
-
-//     var promise = new Promise (function (resolve, reject) {
-        
-//         input = fs.appendFile(input1, input2, (err) => {
-//             if (err) reject (err);
-//                 console.log('It did not work');
-//         });
-//     resolve(input);
-//     })
-//     .then(function (results){
-//         fs.readFile(results, (err, results) => {
-//             if (err) reject (err);
-//             console.log(results); 
-//         })
-//     })
-//     .then(function(results){
-//             fs.writeFile('output.txt', results, (err) => {
-//                 if (err) reject (err);
-//                 console.log('The file has been saved!');
-//             })
-//         })
-//     return promise;
-// }
  
 }
 
