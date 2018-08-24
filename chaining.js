@@ -1,6 +1,5 @@
 let express = require('express');
 let app = express();
-var http = require('http');
 var rp = require('request-promise');
 var fs = require('fs');
 
